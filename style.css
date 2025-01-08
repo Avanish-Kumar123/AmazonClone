@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box; 
+}
+/* body{
+    overflow-x: hidden;
+} */
+ 
+nav.one{
+    background-color: #0F1111;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+.img-logo{
+    height: 60px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 45rem;
+    height: 30px;
+    border-radius: 5px;
+    padding: 3px;
+}
+.search{
+    display: flex;
+}
+.srch-icon{
+    background-color: rgb(255, 201, 4);
+    color: black;
+    padding: 5px;
+    width: 29px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+select{
+    width: 3rem;
+    height: 30px;
+    background-color: black;
+
+    color: white;
+    padding: 3px;
+}
+
+.detail{
+    font-size: small;
+    padding: 12px;
+}
+.icon-medium{
+    font-size: x-large;
+    padding: 15px;
+}
+.map{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+nav.one div:hover{
+    cursor: pointer;
+    border: 1px solid rgb(255, 255, 255); 
+}
+nav.two{
+    background-color: #333333;
+    color: white;
+}
+nav.two ul{
+    cursor: pointer;
+    display: flex;
+    list-style: none;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+nav.two li:hover{
+    /* border: 1px solid white; */
+    text-decoration: underline;
+}
+section{
+        background-image: url('./assets/hero_image.jpg');
+           
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        /* height: 1000px; */
+        
+
+}
+.main-div{
+    justify-content: space-around;
+    
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: black;
+    background-color: #ffffffbb;
+    position: relative;
+    top: 290px; 
+    bottom: 250px;
+    gap: 10px;
+}
+section div div img{
+    height: 300px;
+    width: 350px;
+    margin: 15px;   
+}
+section div div h4{
+    
+    margin: 15px;
+    
+}
+section div div{
+    background-color: white;
+}
+ .anthrweb{
+    background-color: white;
+    padding: 3px 5px;
+    width: 100vw;
+    justify-items: center;
+    position: relative;
+    top: 285px;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    align-content: space-between;
+    position: relative;
+    top: 290px; 
+    bottom: 250px;
+}
+.footerOne{
+    text-align: center;
+    background-color: #333333;
+    width: 100%;
+    padding: 15px;
+}
+.footerOne a{
+    color: white;
+    
+}
+.footertwo{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0F1111;
+    
+}
+.footertwo ul li a{
+    color: white;   
+}
+ a:hover{
+    text-decoration: underline;
+}
+.footertwo ul li{
+    padding-block: 7px;
+}
+.footertwo div h3{
+    color: white;
+    font-weight: 1000;
+    
+} 
+.footertwo div {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    
+}
+ul {
+   list-style: none;
+}
+
+
+
+
